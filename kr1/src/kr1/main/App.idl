@@ -1,0 +1,9 @@
+module NumberApp {
+    typedef long Number;
+    typedef sequence<Number> numberList;
+
+	interface Numbers {
+		numberList numbersMap();
+		oneway void shutdown();
+	};
+};

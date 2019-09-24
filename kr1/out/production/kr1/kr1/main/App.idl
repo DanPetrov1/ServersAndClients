@@ -1,0 +1,6 @@
+module NumberApp {
+	interface Numbers {
+		void numbersMap();
+		oneway void shutdown();
+	};
+};
