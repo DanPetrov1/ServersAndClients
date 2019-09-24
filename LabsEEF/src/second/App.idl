@@ -1,0 +1,6 @@
+module FilesApp {
+	interface Files {
+		void connectFiles();
+		oneway void shutdown();
+	};
+};

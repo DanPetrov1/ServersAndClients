@@ -1,0 +1,8 @@
+module App
+{
+  interface Files
+  {
+  string connectFiles();
+  oneway void shutdown();
+  };
+};
